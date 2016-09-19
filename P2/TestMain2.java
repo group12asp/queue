@@ -14,7 +14,7 @@ public static void main(String[] args) {
         long EndTime = System.nanoTime();
         System.out.println("\n\nsort:");
         qs2.display(list);
-        System.out.println("\nrunning time:" + (EndTime-StartTime) / 10000 + "ns");
+        System.out.println("\nrun time:" + (EndTime-StartTime) / 10000 + "ns");
      
     }
 
